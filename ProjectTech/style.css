@@ -1,0 +1,248 @@
+body {
+  background-color: white;
+}
+
+#buttonpro {
+    border: none;
+    outline: 0;
+    padding: 5px;
+    color: red(255, 255, 255);
+    background-color: rgb(33, 134, 71);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 10px;
+}
+#outofstock{
+  
+  padding: 3px 3px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 22px;
+  text-decoration:none;
+    color: rgb(255, 255, 255);
+    background-color:red;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+}
+#specialProduct{
+    border: none;
+    outline: 0;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 10px;
+}
+#tab1{
+    margin-top:10px 
+}
+h1{
+    text-align: center;
+    color: #aa0404;
+}
+
+#productborder{
+    padding: 3px 3px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 22px;
+    text-decoration:none;
+  }
+
+  #branches{
+    color:white;
+    padding: 3px 3px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 22px;
+    text-decoration:none;
+}
+
+#send{
+    color: black;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 20%;
+    border-radius: 20%;
+  }
+  .form{
+    background-color:aliceblue;
+    align-items:center;
+    width: 60%;
+    width: 30%;
+  }
+.form label{
+  display: inline-block;
+  text-align: right;
+  float: left;
+}
+.form input{
+  display: inline-block;
+  text-align: left;
+  float: right;
+}
+.form {
+  margin: 0 auto;
+  width: 210px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul{
+  display: flex;
+  width: 100%;
+  height: 5%;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: space-between;
+  text-align: center;
+}
+li {
+  padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+  min-width: 80px;
+  margin: auto;
+}
+
+li:hover {
+  background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+  font-weight: bold;
+}
+li:active {
+  transform: translateY(4px);
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+.cen{
+  text-align: center;
+  color:black;
+}
+th, td {
+  padding: 15px;
+}
+
+/*Using CSS for img "Our proteins" in All-proteins page. */
+.container {
+  position: relative;
+  text-align: center;
+  color:A9907E;
+  font-size:50px;
+  }
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+/*Using CSS for table*/
+.demotbl {
+  border: 0px solid #69899F;
+}
+.demotbl th{
+  padding:15px;
+  color:#fff;
+  text-shadow:1px 1px 1px #568F23;
+  border-bottom:3px solid #9ED929;
+  background-color:#9DD929;
+  background:-webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.02, rgb(123,192,67)),
+      color-stop(0.51, rgb(139,198,66)),
+      color-stop(0.87, rgb(158,217,41))
+      );
+  background: -moz-linear-gradient(
+      center bottom,
+      rgb(123,192,67) 3%,
+      rgb(139,198,66) 52%,
+      rgb(158,217,41) 88%
+      );
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  -moz-border-radius:5px 5px 0px 0px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+.demotbl td{
+  width:100px;
+  padding:10px;
+  text-align:center;
+  vertical-align: top;
+  background-color:#DEF3CA;
+  border: 1px solid #BED3AB;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  color:#666;
+  text-shadow:1px 1px 1px #fff;
+
+}
